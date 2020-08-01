@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/security?serverTimezone=Asia/Seoul 
+    username: cos
+    password: cos1234
+
+#spring:
+#  h2:
+#    console:
+#      enabled: true
+#      path: /console
+#  thymeleaf:#    cache: false
+  security:    oauth2:      client:        registration:          facebook:
+            client-id: 757772171716943
+            client-secret: 17fe7387f4b26fe7ec6980660166ac50     
